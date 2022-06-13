@@ -1,0 +1,29 @@
+container{
+    display:flex;
+}
+button{
+    padding:5px;
+    border:2px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    margin:5px;
+}
+#playerscore ,
+#computerscore{
+    float:right;
+    margin-left: 2rem;
+    position: relative;
+    top:-5rem
+}
+#display-result{
+    display:inline-block;
+    width:100%;
+    color:blue;
+
+}
+/* body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
